@@ -33,7 +33,7 @@ Here are all the options offered by SNTE:
 - Malicious net simulation to trick cheaters.
 - Basic protection against lua_run used by hackers to exploit backdoor.
 - Restrict malicious use of the physics engine via entity exploits (BouncyBall)
-- Automatic banning when calling a suspicious net.
+- Automatic banning when calling a suspicious net (reference to the net backdoor list).
 - Semi-automatic compatibility with different systems such as GBAN / ULX / FADMIN / GEXTENSION
 Use the following convars to display your SNTE bans in the system of your choice:
 
