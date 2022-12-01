@@ -1,6 +1,6 @@
-#Say No To Exploits - the solution against unruly kids
+Say No To Exploits - the solution against unruly kids
 
-######the free and safe solution to protect your server garry'smod!
+the free and safe solution to protect your server garry'smod!
 
 ##########
 WORKSHOP VERSION
