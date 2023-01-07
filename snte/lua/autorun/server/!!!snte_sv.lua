@@ -12,10 +12,6 @@
        _|  _|    _|  _|    _|  _|    _|  _|        _|
  _|_|_|      _|_|      _|_|    _|    _|    _|_|_|  _|_|_|_|
 
-I see that you have extracted SNTE,
-it's okay I won't punish you with BDSM, however I WON'T provide support if there's a problem (really)
-I also prefer that you make a suggestion rather than most certainly break the original code with you modifications.
-
 === CREDITS ===
 
 Original idea
