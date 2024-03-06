@@ -386,7 +386,8 @@ local legit_nets = {
 	"TCBDealerStore",
 	"TCBDealerSpawn",
 	"gMining.registerAchievement",
-	"gPrinters.openUpgrades"
+	"gPrinters.openUpgrades",
+	"SendQueueInfo"
 }
 
 -- Known backdoor nets
