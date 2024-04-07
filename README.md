@@ -35,9 +35,8 @@ SNTE FEATURES
 ##########
 Here are all the options offered by SNTE:
 
-- Malicious net simulation to trick cheaters.
+- Simulate malicious net to catch exploiters.
 - Basic protection against lua_run used by hackers to exploit backdoor.
-- Restrict malicious use of the physics engine via entity exploits (BouncyBall)
 - Automatic banning when calling a suspicious net (reference to the net backdoor list).
 - Semi-automatic compatibility with different systems such as GBAN / ULX / FADMIN / GEXTENSION
 Use the following convars to display your SNTE bans in the system of your choice:
@@ -51,7 +50,7 @@ snte_banmethod gban
 ##########
 SOURCEBAN SNTE
 ##########
-Former project not continued in which SNTE participated:
+Former project not continued in which SNTE participated (JSON FORMAT):
 https://github.com/YohSambre/snte_sourceban
 
 Here is a submerged part of the iceberg that is SNTE in terms of banning list, the totality of steamid registered in this list are legitimate bans (No Freeban)
