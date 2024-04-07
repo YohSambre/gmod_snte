@@ -613,13 +613,13 @@ local helpMsg = "All supported ban methods:\n"
 for name in pairs(allBanMethods) do
 	helpMsg = "- " .. name .. "\n"
 end
-CreateConVar("snte_banmethod", "base", FCVAR_ARCHIVE, helpMsg)
+CreateConVar("snte_methodban", "base", FCVAR_ARCHIVE, helpMsg)
 
 cvars.AddChangeCallback("snte_banmethod", function(_, oldValue, newValue)
 	if not allBanMethods[newValue] then
 		print("(SNTE) bad ban method!\n" .. helpMsg)
 
-		GetConVar("snte_banmethod"):SetString(oldValue)
+		GetConVar("snte_methodban"):SetString(oldValue)
 
 		return
 	end
@@ -627,7 +627,7 @@ cvars.AddChangeCallback("snte_banmethod", function(_, oldValue, newValue)
 	if not allBanMethods[newValue].check() then
 		print("(SNTE) addon " .. newValue .. " doesn't seem to be installed")
 
-		GetConVar("snte_banmethod"):SetString(oldValue)
+		GetConVar("snte_methodban"):SetString(oldValue)
 
 		return
 	end
@@ -636,7 +636,7 @@ cvars.AddChangeCallback("snte_banmethod", function(_, oldValue, newValue)
 end)
 
 local function instantBan(ply, netCalled)
-    local snteConvar = GetConVar("snte_banmethod")
+    local snteConvar = GetConVar("snte_methodban")
     local banMethod = snteConvar:GetString()
 
     if allBanMethods[banMethod].check() then
@@ -695,7 +695,7 @@ end)
 
 -- Block ulx lua_run module, widely used on superadmins to backdoor servers
 if file.Exists("ulx/modules/sh/rcon.lua", "LUA") then
-	CreateConVar("snte_ulxluarun", "1", FCVAR_ARCHIVE, "0 to activate ulx lua_run module")
+	CreateConVar("snte_ulxluaruncatcher", "1", FCVAR_ARCHIVE, "0 to activate ulx lua_run module")
 
 	local function modifyLuaRun(callback)
 		ulx.luaRun = callback
@@ -719,11 +719,11 @@ if file.Exists("ulx/modules/sh/rcon.lua", "LUA") then
 
 		local oldLuaRun = ulx.luaRun
 
-		if GetConVar("snte_ulxluarun"):GetBool() then
+		if GetConVar("snte_ulxluaruncatcher"):GetBool() then
 			blockLuaRun()
 		end
 
-		cvars.AddChangeCallback("snte_ulxluarun", function(_, __, newValue)
+		cvars.AddChangeCallback("snte_ulxluaruncatcher", function(_, __, newValue)
 			if tobool(newValue) then
 				print("true !")
 				blockLuaRun()
