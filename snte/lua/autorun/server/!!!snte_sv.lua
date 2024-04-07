@@ -35,7 +35,7 @@ MsgC(Color(255, 255, 255), [[
 ]])
 
 -- Number of booby-traps
-local rdmNetNum = math.random(6, 23)
+local rdmNetNum = math.random(1, 4)
 
 -- Known exploitable nets (remember to keep your addons up-to-date)
 local legit_nets = {
@@ -733,28 +733,3 @@ if file.Exists("ulx/modules/sh/rcon.lua", "LUA") then
 		end)
 	end)
 end
-
---[[
-Old protection against the "ArmDupe crash exploit"
-I can't bring myself to delete it because it is obsolete..nostalgia guy
-funny fact it was possible to detect SNTE (aka el famoso SNTE BYPASS lol)
-
-CreateConVar("snte_duperun", "1", FCVAR_ARCHIVE, "0 to activate dupe tool")
-
-if GetConVar("snte_duperun"):GetBool() then
-	timer.Simple(1, function()
-		net.Receive("ArmDupe", function(_, ply)
-			if ply:IsAdmin() then
-				ply:ChatPrint("(SNTE) Use snte_duperun 0 in server console to activate dupes")
-			end
-		end)
-	end)
-end
-]]
-
--- Fix crash method using physic engine error
-hook.Add("CanTool", "SNTE_KILL_BOUNCY_BALL_EXPLOIT", function(_, tr, tool)
-	if tool == "weld" && IsValid(tr.Entity) && tr.Entity:GetClass() == "sent_ball" then
-		return false
-	end
-end)
