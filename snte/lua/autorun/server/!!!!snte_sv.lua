@@ -609,10 +609,6 @@ local allBanMethods = {
 	}
 }
 
-local helpMsg = "All supported ban methods:\n"
-for name in pairs(allBanMethods) do
-	helpMsg = "- " .. name .. "\n"
-end
 CreateConVar("snte_methodban", "base", FCVAR_ARCHIVE, helpMsg)
 
 cvars.AddChangeCallback("snte_banmethod", function(_, oldValue, newValue)
