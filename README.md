@@ -8,44 +8,46 @@ WORKSHOP VERSION
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=1308262997
 
-##########
-ABOUT SNTE
-##########
+La solution gratuite et sûre pour protéger votre serveur Garry's Mod !
 
-SNTE is a preventive security script against the use of menu exploits on your server, initially imagined by Meepen and then fully recoded by Maks and Zaros SNTE will be able to protect your server against the horde of young cheaters who try to exploit security holes through too old or poorly developed addons on the workshop and gmodstore.
+(Pssst, vous ne voulez pas l'intégrer dans la collection ? Vous avez peur des backdoors ? Pas de problème, utilisez la version GitHub ! : SNTE GITHUB! [github.com] (cette version est proposée aux fondateurs qui veulent mettre SNTE dans le FTP ;))
 
-SNTE works quickly and smoothly to capture as many suspicious users as possible, you don't have a complicated menu or a long list of convars to set up, everything is set up to work without asking you for too much fine tuning.
 
-##########
-Why you should install SNTE
-##########
+====================================================
+MERCI DE LIRE TOUTE LA DESCRIPTION AVANT DE COMMENTER!
+TOUS LES COMMENTAIRES STUPIDES SERONT SUPPRIMÉS
+====================================================
 
-garrysmod is a powerful game and very complete in term of contents, there are thousands of addons available on the workshop/gmodstore/garrysmod.org, the problem is that many addons are developed without performing real verification on the client side.
+À PROPOS DE SNTE
 
-it's a problem if the addon in question allows you to make millions of currencies appear or worse to become an 'admin'..
 
-whether using a mod menu written in lua or C++ no protection means death for the server administration team, the SNTE team believes that it is their duty to offer a powerful and free addon to reach the largest number of people and thus offer a more secure space on each server , there are more advanced systems but paying, a real shame according to Yoh Sambre.
+SNTE est un script de sécurité préventif contre l'utilisation d'exploit menu sur votre serveur , initialement imaginer par Meepen[github.com] puis entièrement recoder par Maks et Zaros SNTE seras en mesure de protéger votre serveur contre la horde de jeunes tricheur qui tente d'exploiter des failles de sécurité par le biais d'addons trop vieux ou mal déveloper sur le workshop et gmodstore.
 
-to take SNTE it is the insurance to have a base to protect a minimum against the very very many cheaters who pullulate on garrysmod.
+SNTE fonctionne rapidement et sans accro afin de capturer un maximum d'utilisateurs douteux , vous n'avez pas de menu compliquer ou une longue liste de convars a régler , tous est mis en oeuvre pour fonctionner sans trop vous demander des réglages minutieux.
 
-if you have any suggestions for possible features to add or modify we are open to discussion, just write a correct message on the spaces dedicated to that
+FEATURES
 
-##########
-SNTE FEATURES
-##########
-Here are all the options offered by SNTE:
 
-- Simulate malicious net to catch exploiters.
-- Basic protection against lua_run used by hackers to exploit backdoor.
-- Automatic banning when calling a suspicious net (reference to the net backdoor list).
-- Semi-automatic compatibility with different systems such as GBAN / ULX / FADMIN / GEXTENSION
-Use the following convars to display your SNTE bans in the system of your choice:
+SNTE propose un large panel de feature comme par exemple :
 
-snte_banmethod base
-snte_banmethod ulx
-snte_banmethod fadmin
-snte_banmethod gextension
-snte_banmethod gban
+Simulation de net malicieuse pour tromper les tricheurs.
+Protection de base contre le lua_run utilisé a outrance par les hacker pour exploiter des backdoor.
+Bannissement automatique a l'appel d'un net douteux.
+vous pouvez personnaliser le motif de bannissement des joueurs, par défaut > (SNTE) Net exploit détecté !
+compatibilité semi_automatique avec différent système comme par exemple GBAN / ULX / FADMIN / GEXTENSION
+Pour choisir où afficher les bannissements liés au SNTE, vous pouvez sélectionner votre mode d'administration en utilisant les commandes suivantes :
+
+snte_bansystem base
+snte_bansystem ulx
+snte_bansystem fadmin
+snte_bansystem gextension
+snte_bansystem gban
+
+voici comment changer la raison du bannissement des tricheurs :
+snte_banreason yourcustomreason dans la console web du serveur (VOUS DEVEZ REBOOT VOTRE SERVEUR)
+
+vous pouvez aussi choisir d'activer ou non la sécurité concernant l'utilisation du module ulx luarun :
+snte_luarunprotect 0/1 (la valeur par défaut est « 1 » pour éviter les risques de sécurité)
 
 ##########
 SOURCEBAN SNTE
