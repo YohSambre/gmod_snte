@@ -41,7 +41,7 @@ SNTE offers a wide range of features such as :
 here's how to change the reason for banning cheaters :
 snte_banreason yourcustomreason in server web console (YOU NEED REBOOT YOUR SERVER)
 
-you can choose whether or not to enable security when using ulx ulx luarun module :
+you can choose whether or not to enable security when using ulx luarun module :
 snte_luarunprotect 0/1 (default for "1" prevent security risk)
 
 ##########
