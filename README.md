@@ -2,41 +2,47 @@ Say No To Exploits - the solution against unruly kids
 
 the free and safe solution to protect your server garry'smod!
 
-##########
-WORKSHOP VERSION
-##########
-https://steamcommunity.com/sharedfiles/filedetails/?id=1308262997
-La solution gratuite et sûre pour protéger votre serveur Garry's Mod !
-(Pssst, vous ne voulez pas l'intégrer dans la collection ? Vous avez peur des backdoors ? Pas de problème, utilisez la version GitHub ! : SNTE GITHUB! [github.com] (cette version est proposée aux fondateurs qui veulent mettre SNTE dans le FTP ;))
+====================================================
 
-À PROPOS DE SNTE
+READ THE ENTIRE DESCRIPTION BEFORE COMMENTING
 
-SNTE est un script de sécurité préventif contre l'utilisation d'exploit menu sur votre serveur , initialement imaginer par Meepen[github.com] puis entièrement recoder par Maks et Zaros SNTE seras en mesure de protéger votre serveur contre la horde de jeunes tricheur qui tente d'exploiter des failles de sécurité par le biais d'addons trop vieux ou mal déveloper sur le workshop et gmodstore.
+ALL DUMB COMMENTS WILL BE DELETED
 
-SNTE fonctionne rapidement et sans accro afin de capturer un maximum d'utilisateurs douteux , vous n'avez pas de menu compliquer ou une longue liste de convars a régler , tous est mis en oeuvre pour fonctionner sans trop vous demander des réglages minutieux.
+====================================================
+ABOUT SNTE
+
+
+SNTE is a preventive security script against the use of exploit menu on your server. , originally imagined by Meepen[github.com] and then completely recoded by Maks et Zaros SNTE will be able to protect your server from the horde of young cheaters who try to exploit security holes through addons that are too old or poorly developed on the workshop and gmodstore.
+
+SNTE works quickly and smoothly to capture as many dubious users as possible, you don't have a complicated menu or a long list of convars to deal with, everything is set up to work without requiring too much fine-tuning.
 
 FEATURES
 
-SNTE propose un large panel de feature comme par exemple :
 
-Simulation de net malicieuse pour tromper les tricheurs.
-Protection de base contre le lua_run utilisé a outrance par les hacker pour exploiter des backdoor.
-Bannissement automatique a l'appel d'un net douteux.
-vous pouvez personnaliser le motif de bannissement des joueurs, par défaut > (SNTE) Net exploit détecté !
-compatibilité semi_automatique avec différent système comme par exemple GBAN / ULX / FADMIN / GEXTENSION
-Pour choisir où afficher les bannissements liés au SNTE, vous pouvez sélectionner votre mode d'administration en utilisant les commandes suivantes :
+SNTE offers a wide range of features such as :
 
-snte_bansystem base
-snte_bansystem ulx
-snte_bansystem fadmin
-snte_bansystem gextension
-snte_bansystem gban
+    Malicious net simulation to catch the cheaters.
+    Automatic banning at the call of a suspicious net.
+    Basic protection against the ulx luarun used excessively by hackers to exploit the backdoor..
+    you can customize the player ban motif, by default > (SNTE) Net exploit detected !
+    semi_automatic compatibility with different systems such as ULX / FADMIN / GEXTENSION / GBAN / SAM
+    Use the following convars to display your SNTE bans in the system of your choice :
 
-voici comment changer la raison du bannissement des tricheurs :
-snte_banreason yourcustomreason dans la console web du serveur (VOUS DEVEZ REBOOT VOTRE SERVEUR)
+    to choose where to display SNTE-related bannings you can select your admin mode using the following convars :
 
-vous pouvez aussi choisir d'activer ou non la sécurité concernant l'utilisation du module ulx luarun :
-snte_luarunprotect 0/1 (la valeur par défaut est « 1 » pour éviter les risques de sécurité)
+    snte_bansystem base
+    snte_bansystem ulx
+    snte_bansystem fadmin
+    snte_bansystem gextension
+    snte_bansystem gban
+    snte_bansystem sam
+
+
+here's how to change the reason for banning cheaters :
+snte_banreason yourcustomreason in server web console (YOU NEED REBOOT YOUR SERVER)
+
+you can choose whether or not to enable security when using ulx ulx luarun module :
+snte_luarunprotect 0/1 (default for "1" prevent security risk)
 
 ##########
 SOURCEBAN SNTE
