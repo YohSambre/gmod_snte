@@ -3,21 +3,15 @@ Say No To Exploits - the solution against unruly kids
 the free and safe solution to protect your server garry'smod!
 
 ====================================================
-
 READ THE ENTIRE DESCRIPTION BEFORE COMMENTING
-
-ALL DUMB COMMENTS WILL BE DELETED
-
 ====================================================
 ABOUT SNTE
-
 
 SNTE is a preventive security script against the use of exploit menu on your server. , originally imagined by Meepen[github.com] and then completely recoded by Maks et Zaros SNTE will be able to protect your server from the horde of young cheaters who try to exploit security holes through addons that are too old or poorly developed on the workshop and gmodstore.
 
 SNTE works quickly and smoothly to capture as many dubious users as possible, you don't have a complicated menu or a long list of convars to deal with, everything is set up to work without requiring too much fine-tuning.
 
 FEATURES
-
 
 SNTE offers a wide range of features such as :
 
