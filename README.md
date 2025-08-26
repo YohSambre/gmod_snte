@@ -19,7 +19,7 @@ SNTE offers a wide range of features such as :
     Automatic banning at the call of a suspicious net.
     Basic protection against the ulx luarun used excessively by hackers to exploit the backdoor..
     you can customize the player ban motif, by default > (SNTE) Net exploit detected !
-    semi_automatic compatibility with different systems such as ULX / FADMIN / GEXTENSION / GBAN / SAM
+    semi_automatic compatibility with different systems such as ULX / FADMIN / GEXTENSION / GBAN / SAM / NOVA DEFENDER
     Use the following convars to display your SNTE bans in the system of your choice :
 
     to choose where to display SNTE-related bannings you can select your admin mode using the following convars :
