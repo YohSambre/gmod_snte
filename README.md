@@ -16,7 +16,7 @@ SNTE offers a wide range of features such as :
 * Automatic banning at the call of a suspicious net.
 * Basic protection against the ulx luarun used excessively by hackers to exploit the backdoor. You can choose whether or not to enable security using the convar: `snte_luarunprotect 0/1 (default for "1" prevent security risk)`
 * You can customize the player ban reason using the following convar: `snte_banreason yourcustomreason`. Default: `(SNTE) Network exploit detected!`
-* Semi_automatic compatibility with different systems such as [ULX](https://github.com/TeamUlysses/ulx) / [FADMIN](https://github.com/FPtje/DarkRP) / [GEXTENSION](https://www.gmodstore.com/market/view/gextension-the-all-in-one-package-for-your-community/discussion?page=2) / [GBAN](https://www.gmodstore.com/market/view/global-ban-simple-way-to-ban-globally-gban) / [SAM](https://www.gmodstore.com/market/view/sam) / [NOVA DEFENDER](https://www.gmodstore.com/market/view/sam) [SADMIN]([https://www.gmodstore.com/market/view/sam](https://www.gmodstore.com/market/view/sadmin-the-best-admin-mod))
+* Semi_automatic compatibility with different systems such as [ULX](https://github.com/TeamUlysses/ulx) / [FADMIN](https://github.com/FPtje/DarkRP) / [GEXTENSION](https://www.gmodstore.com/market/view/gextension-the-all-in-one-package-for-your-community/discussion?page=2) / [GBAN](https://www.gmodstore.com/market/view/global-ban-simple-way-to-ban-globally-gban) / [SAM](https://www.gmodstore.com/market/view/sam) / [NOVA DEFENDER](https://www.gmodstore.com/market/view/sam) / [SADMIN]([https://www.gmodstore.com/market/view/sam](https://www.gmodstore.com/market/view/sadmin-the-best-admin-mod))
 * Use the following convars to modify the SNTE ban system 
 ```lua
 snte_bansystem base
