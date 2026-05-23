@@ -29,7 +29,7 @@ snte_bansystem sadmin
 ```
 
 ## 📦 SOURCEBAN SNTE
-### The source ban has not been updated for 3  years. Former project not continued in which SNTE participated (JSON FORMAT):
+### The source ban has not been updated for 4 years. Former project not continued in which SNTE participated (JSON FORMAT):
 
 👉 [Source Ban - SNTE](https://github.com/YohSambre/snte_sourceban)
 
